@@ -4,9 +4,7 @@ import { Logo } from '../logo';
 import Link from 'next/link';
 import styles from './footer.module.scss';
 
-interface Props {
-  className?: string;
-}
+interface Props {}
 
 export const contactList = [
   {
@@ -51,7 +49,7 @@ export const contactList = [
   },
 ];
 
-export const Footer: React.FC<Props> = ({ className }) => {
+export const Footer: React.FC<Props> = () => {
   return (
     <footer className={styles.container}>
       <div className={styles.wrapper}>

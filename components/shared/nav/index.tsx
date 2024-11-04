@@ -3,11 +3,9 @@ import React from 'react';
 import Link from 'next/link';
 import { routes } from '../../../routes';
 import styles from './nav.module.scss';
-interface Props {
-  className?: string;
-}
+interface Props {}
 
-export const Nav: React.FC<Props> = ({ className }) => {
+export const Nav: React.FC<Props> = () => {
   const [open, setOpen] = React.useState(false);
   const openNavBar = () => {
     setOpen(!open);

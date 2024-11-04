@@ -7,11 +7,9 @@ const lobster = Lobster({
   weight: '400',
 });
 
-interface Props {
-  className?: string;
-}
+interface Props {}
 
-export const Logo: React.FC<Props> = ({ className }) => {
+export const Logo: React.FC<Props> = () => {
   return (
     <div className={styles.container}>
       <h1 className={` ${lobster.className} ${styles.title}`}>ФорестТревел</h1>
