@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Logo } from '../logo';
 import { Nav } from '../nav';
+import { NavBar } from '../nav-bar';
 
 interface Props {
   className?: string;
