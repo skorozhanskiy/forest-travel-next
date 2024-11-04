@@ -1,8 +1,15 @@
 .container {
 	width: 100%;
+	background-color: rgb(27, 85, 66);
+}
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	min-height: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(27, 85, 66);
+
+	padding: 0px 15px 0px 15px;
 }

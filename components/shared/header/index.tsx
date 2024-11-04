@@ -12,8 +12,10 @@ const styles = require('./header.module.scss');
 export const Header: React.FC<Props> = ({ className }) => {
   return (
     <header className={styles.container}>
-      <Logo />
-      <Nav />
+      <div className={styles.wrapper}>
+        <Logo />
+        <Nav />
+      </div>
     </header>
   );
 };
