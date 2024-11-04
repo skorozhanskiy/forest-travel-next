@@ -2,6 +2,7 @@ import React from 'react';
 import { Logo } from '../logo';
 
 import Link from 'next/link';
+import styles from './footer.module.scss';
 
 interface Props {
   className?: string;
@@ -50,7 +51,6 @@ export const contactList = [
   },
 ];
 
-const styles = require('./footer.module.scss');
 export const Footer: React.FC<Props> = ({ className }) => {
   return (
     <footer className={styles.container}>

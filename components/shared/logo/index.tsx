@@ -1,6 +1,6 @@
 import React from 'react';
-
 import { Lobster } from 'next/font/google';
+import styles from './logo.module.scss';
 
 const lobster = Lobster({
   subsets: ['latin'],
@@ -11,7 +11,6 @@ interface Props {
   className?: string;
 }
 
-const styles = require('./logo.module.scss');
 export const Logo: React.FC<Props> = ({ className }) => {
   return (
     <div className={styles.container}>

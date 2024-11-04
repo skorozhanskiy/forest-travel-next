@@ -1,14 +1,12 @@
 import React from 'react';
+import styles from './header.module.scss';
 
 import { Logo } from '../logo';
 import { Nav } from '../nav';
-import { NavBar } from '../nav-bar';
 
 interface Props {
   className?: string;
 }
-
-const styles = require('./header.module.scss');
 
 export const Header: React.FC<Props> = ({ className }) => {
   return (

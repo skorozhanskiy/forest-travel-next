@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 import { routes } from '../../../routes';
-
+import styles from './nav.module.scss';
 interface Props {
   className?: string;
 }
-const styles = require('./nav.module.scss');
+
 export const Nav: React.FC<Props> = ({ className }) => {
   return (
     <nav className={styles.container}>

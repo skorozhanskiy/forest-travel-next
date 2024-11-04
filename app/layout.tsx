@@ -3,8 +3,7 @@ import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 
 import { Header, Footer } from '@/components/shared';
-
-const styles = require('@/scss/global.scss');
+import '@/scss/global.scss';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -26,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={`${styles.className} ${inter.className}`}>
+      <body className={`${inter.className}`}>
         <div className="wrapper">
           <Header />
           <main className="main">
