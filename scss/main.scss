@@ -1,3 +1,22 @@
-// @use "reset.scss";
-// @use "normalize";
-// @use "root";
+@use "reset.scss";
+@use "normalize";
+@use "root";
+body {
+	background-color: #f2f8f6;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr;
+	gap: 60px;
+	min-height: 100vh;
+}
+.main {
+}
+.content {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+	padding: 0px 15px 0px 15px;
+}

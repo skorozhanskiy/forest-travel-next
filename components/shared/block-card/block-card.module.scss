@@ -1,0 +1,27 @@
+.container {
+	max-width: 570px;
+	width: 100%;
+	min-height: 355px;
+	background-color: rgb(77, 114, 114);
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 20%;
+	cursor: pointer;
+}
+.top {
+}
+.img {
+}
+.bottom {
+	background-color: rgb(165, 165, 165);
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+}
+.title {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	margin-left: 30px;
+}
